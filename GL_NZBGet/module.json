@@ -2,7 +2,7 @@
     "id": "{C68ECEC8-D56A-4B04-A549-8195FBF8E2F5}",
     "name": "NZBGet",
     "type": 3,
-    "vendor": "",
+    "vendor": "GeeLife",
     "aliases":
     [
         "Name1UnterstütztesGerät",
@@ -11,5 +11,5 @@
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
-    "prefix": "ABC"
+    "prefix": "GeeLife"
 }
