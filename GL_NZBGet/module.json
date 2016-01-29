@@ -5,11 +5,10 @@
     "vendor": "GeeLife",
     "aliases":
     [
-        "Name1UnterstütztesGerät",
-        "Name2UnterstütztesGerät"
+        "NZBGet Module"
     ],  
     "parentRequirements": [],
     "childRequirements": [],
     "implemented": [],
-    "prefix": "GeeLife"
+    "prefix": "GL"
 }
