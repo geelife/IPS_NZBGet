@@ -1,0 +1,14 @@
+{
+    "id": "{91360D14-0CA2-4A49-9208-7929DF7C92FB}",
+    "name": "NZBGetIO",
+    "type": 1,
+    "vendor": "GeeLife",
+    "aliases":
+    [
+        "NZBGet IO Module"
+    ],  
+    "parentRequirements": [],
+    "childRequirements": ["{612C029F-B453-499E-973D-4B4E4F9C4F0E}"],
+    "implemented": ["{1BA1142D-0D95-4F16-B547-D02D9B6E9EEE}"],
+    "prefix": "GL_IO"
+}

@@ -1,7 +1,7 @@
 {
     "elements":
     [
-        { "type": "ValidationTextBox", "name": "User Name", "caption": "User Name" }
+
     ],
     "actions":
     [

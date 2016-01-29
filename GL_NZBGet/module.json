@@ -7,8 +7,8 @@
     [
         "NZBGet Module"
     ],  
-    "parentRequirements": [],
+    "parentRequirements": ["{1BA1142D-0D95-4F16-B547-D02D9B6E9EEE}"],
     "childRequirements": [],
-    "implemented": [],
+    "implemented": ["{612C029F-B453-499E-973D-4B4E4F9C4F0E}"],
     "prefix": "GL"
 }
