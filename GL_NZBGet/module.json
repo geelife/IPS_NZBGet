@@ -1,5 +1,5 @@
 {
-    "id": "{C68ECEC8-D56A-4B04-A549-8195FBF8E2F5}",
+    "id": "{574C308F-A66E-4095-B877-AFA7CB6A4B0F}",
     "name": "NZBGet",
     "type": 3,
     "vendor": "GeeLife",
@@ -7,8 +7,8 @@
     [
         "NZBGet Module"
     ],  
-    "parentRequirements": ["{1BA1142D-0D95-4F16-B547-D02D9B6E9EEE}"],
+    "parentRequirements": [],
     "childRequirements": [],
-    "implemented": ["{612C029F-B453-499E-973D-4B4E4F9C4F0E}"],
+    "implemented": [],
     "prefix": "GL"
 }

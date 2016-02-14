@@ -1,12 +1,35 @@
 {
     "elements":
     [
-
+        { "type": "ValidationTextBox", "name": "NzbServerIpAddress", "caption": "Server IP" },
+   		{ "type": "NumberSpinner", "name": "NzbPort", "caption": "Server Port" },
+        { "type": "ValidationTextBox", "name": "NzbUserName", "caption": "User Name" },
+        { "type": "PasswordTextBox", "name": "NzbPassword", "caption": "Password" },
+        { "type": "ValidationTextBox", "name": "NzbIdentPrefix", "caption": "Ident Prefix" },
+        { "type": "CheckBox", "name": "NzbStatusUpdateEnabled", "caption": "Update Status regularly?" },
+        { "type": "IntervalBox", "name": "NzbStatusUpdateInterval", "caption": "Status Import Interval:" },
+        { "type": "Label", "label": "Please specify if you want to import logs and the amount of last log entries to import:" },
+        { "type": "CheckBox", "name": "NzbLogImportEnabled", "caption": "Import Logs regularly?" },
+        { "type": "IntervalBox", "name": "NzbLogImportInterval", "caption": "Log Import Interval:" },
+        { "type": "NumberSpinner", "name": "NzbLogImportAmount", "caption": "Amount of Logs" },
+        { "type": "Label", "label": "Please specify which information about downloads should be displayed:" },
+		{ "type": "IntervalBox", "name": "NzbDownloadImportInterval", "caption": "Download Import Interval:" },
+        { "type": "ValidationTextBox", "name": "NzbDownloadFields", "caption": "Download Fields" }
+        
+        
     ],
     "actions":
     [
+        { "type": "Button", "label": "Import Version Info", "onClick": "GL_ImportVersionInfo($id);" },
+        { "type": "Button", "label": "Import Downloads", "onClick": "echo GL_ImportDownloads($id);" },
+        { "type": "Button", "label": "Import Status", "onClick": "GL_ImportStatus($id);" },
+        { "type": "Button", "label": "Import Logs", "onClick": "GL_ImportLogs($id);" }
+    
     ],
     "status":
     [
+   		{ "code": 101, "icon": "inactive", "caption": "Instance created" },
+   		{ "code": 102, "icon": "active", "caption": "Instance has a valid configuration" },
+   		{ "code": 201, "icon": "error", "caption": "Config Form filled but not valid" },
     ]
 }
