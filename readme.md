@@ -13,7 +13,7 @@ Use cases might be:
  - Manage directory scans
  - Manage configs
 
-Available API calls from NZBGet
+Available API calls from NZBGet:
 https://github.com/nzbget/nzbget/wiki/API
 ###### Program control
 - version                             - implemented (Module)
