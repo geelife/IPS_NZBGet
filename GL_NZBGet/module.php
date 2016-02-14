@@ -1,5 +1,4 @@
 <?
-    // Klassendefinition
     class NZBGet extends IPSModule {       
         public $xmlrpc_client;
         
